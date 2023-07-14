@@ -45,10 +45,10 @@ require('ts-node').register({
       //'--require-module mutationobserver-shim',
  
       // Test
-      '--require ./Features/StepDefinitions/*/*.js',
-      '--require ./Features/StepDefinitions/*.js',
-      '--require ./Features/StepDefinitions/**/*.js',
-      '--require ./Features/Support/*.js',
+      '--require ./features/StepDefinitions/*/*.js',
+      '--require ./features/StepDefinitions/*.js',
+      '--require ./features/StepDefinitions/**/*.js',
+      '--require ./features/Support/*.js',
   
     ].join(' ')
   };
